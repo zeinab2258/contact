@@ -1,6 +1,6 @@
 const Contact = require('../models/Contact');
 
-// @desc    گرفتن تمام مخاطبین (با قابلیت جستجو)
+// @desc    گرفتن تمام مخاطبین
 // @route   GET /api/contacts
 exports.getContacts = async (req, res, next) => {
   try {
